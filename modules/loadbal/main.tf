@@ -50,7 +50,7 @@ resource "aws_lb_listener_rule" "http_ping" {
     type = "fixed-response"
     fixed_response {
       content_type = "text/plain"
-      message_body = "/pong"
+      message_body = "pong"
       status_code  = "200"
     }
   }

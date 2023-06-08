@@ -5,7 +5,7 @@ module "sgroup" {
   alb_sg_description = "ALB SG for Hillel test project"
 
   ec2_sg_name        = "hillel-homework21-ec2-sg"
-  ec2_sg_description = "EC2 SG for test project for Hillel"
+  ec2_sg_description = "EC2 SG for Hillel test project"
 
   vpc_id = data.aws_vpc.default.id
 
